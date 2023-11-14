@@ -3,7 +3,6 @@ using Cysharp.Threading.Tasks;
 using Entities;
 using Nora.Services.GameServices;
 using UnityEngine;
-using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace UI
