@@ -12,7 +12,7 @@ using ErrorEventArgs = Newtonsoft.Json.Serialization.ErrorEventArgs;
 /// </summary>
 namespace DataManagement
 {
-    public class GoogleDataLoader
+    public class GoogleDataHelper
     {
         private const string JsonUrl = "https://script.googleusercontent.com/macros/echo?user_content_key" +
                                        "=cpTfwO2WfuXI27lDgAClvTleFZJ4HnhNpnM8o3KX93wr_6pCL2Ijb3clsRfLhFi3ovwAmHp_" +

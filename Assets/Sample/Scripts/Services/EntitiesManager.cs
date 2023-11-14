@@ -16,7 +16,7 @@ namespace Services
         
         public async UniTask<bool> TryInitialize()
         {
-            var googleObject = await GoogleDataLoader.GetGoogleObject();
+            var googleObject = await GoogleDataHelper.GetGoogleObject();
             
             if (googleObject == null)
                 return false;
