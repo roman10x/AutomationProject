@@ -1,9 +1,10 @@
 using System;
 using Cysharp.Threading.Tasks;
 using DataManagement;
+using Entities;
 using Services;
 
-namespace Entities
+namespace Services
 {
     public class EntitiesManager : IGameService
     {
