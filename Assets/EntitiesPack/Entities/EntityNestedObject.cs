@@ -1,14 +1,20 @@
 using System;
 using Newtonsoft.Json;
+using UnityEngine;
 
 namespace Entities
 {
     [Serializable]
     public class EntityNestedObject
     {
-        public string _name;
-        public int _number;
+        [SerializeField]
+        private string _name;
+        [SerializeField]
+        private int _number;
 
+        public string Name => _name;
+        public int Number => _number;
+        
         [JsonConstructor]
         public EntityNestedObject(string name, int number)
         {
