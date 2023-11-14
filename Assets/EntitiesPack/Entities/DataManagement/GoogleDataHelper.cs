@@ -5,13 +5,12 @@ using UnityEngine;
 using UnityEngine.Networking;
 using ErrorEventArgs = Newtonsoft.Json.Serialization.ErrorEventArgs;
 
-
-/// <summary>
-/// Class that allow to load data from google sheets via json deseralization
-/// Installation of com.unity.nuget.newtonsoft-json and Unitasks required
-/// </summary>
 namespace DataManagement
 {
+    /// <summary>
+    /// Class that allow to load data from google sheets via json deseralization
+    /// Installation of com.unity.nuget.newtonsoft-json and Unitasks required
+    /// </summary>
     public class GoogleDataHelper
     {
         private const string JsonUrl = "https://script.googleusercontent.com/macros/echo?user_content_key" +
